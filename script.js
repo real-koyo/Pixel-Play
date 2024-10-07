@@ -101,7 +101,7 @@ canvas.addEventListener('touchmove', (event) => {
         );
 
         // Increase size if touched
-        square.size = square.isHovered ? squareSize * 1.5 : squareSize;
+        square.size = square.isHovered ? squareSize * 15 : squareSize;
     });
 
     drawSquares();
